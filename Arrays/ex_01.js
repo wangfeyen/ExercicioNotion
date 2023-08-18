@@ -1,12 +1,12 @@
 //Crie um array de números e ordene-o em ordem crescente.
 const prompt = require("prompt-sync")();
 console.log("Digite a sequencia de números dando enter após cada um")
-console.log("Digite 'parar' quando concluir.")
+console.log("Digite 'fim' quando concluir.")
 let numeros = [];
 let num="";
-while(num!=="parar"){
+while(num!=="fim"){
     num=prompt("  ")
-    if(num!=="parar"){
+    if(num!=="fim"){
         numeros.push(parseFloat(num))
     }
 }
