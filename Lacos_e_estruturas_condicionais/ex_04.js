@@ -12,4 +12,6 @@ function primoounao(n){
         console.log(`${n} não é primo`)
     }
 }
-primoounao(7)
+const prompt = require("prompt-sync")();
+const numero = prompt("Digite um número: ")
+primoounao(numero)
